@@ -1,6 +1,6 @@
 # DrivingRobot
 
-An embedded project for an autonomous line-following and wall-following robot built in C on a **STM32F103RB** (Cortex-M3) micro-controller using the Keil µVision IDE.
+An embedded project for an autonomous wall-following and line-avoiding robot built in C on a **STM32F103RB** (Cortex-M3) micro-controller using the Keil µVision IDE.
 
 ## Overview
 
