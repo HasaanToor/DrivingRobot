@@ -15,8 +15,8 @@ A hardware button on the microcontroller (blue USER button) toggles between the 
 
 - [Wall Following Mode Demo](https://www.youtube.com/shorts/QLGb6LNNCp4)
 - [Line Avoidance Mode Demo](https://www.youtube.com/shorts/xQRGO2_YNKI)
-- [Pin Diagram](./ENEL%20351%20Project%20Pin%20Diagram)
-- [Pictures at the bottom of Project Report](./ENEL%20351%20Project%20Report)
+- [Pin Diagram](./ENEL%20351%20Project%20Pin%20Diagram.pdf)
+- [Pictures at the bottom of Project Report](./ENEL%20351%20Project%20Report.pdf)
 
 ## Hardware
 
