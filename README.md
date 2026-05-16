@@ -18,18 +18,6 @@ A hardware button on the microcontroller (blue USER button) toggles between the 
 - [Pin Diagram](./ENEL%20351%20Project%20Pin%20Diagram.pdf)
 - [Pictures at the bottom of Project Report](./ENEL%20351%20Project%20Report.pdf)
 
-## Hardware
-
-| Component | Description |
-|---|---|
-| MCU | STM32F103RB |
-| Analog Distance Sensor | Sharp GP2Y0A51SK0F Analog Distance Sensor - 2cm to 15cm |
-| Digital Line Sensor | QRE1113 Miniature Reflective Object Sensor |
-| 2 Motor Drivers | Dual Driver TB6612FNG v2 |
-| 4 Motors | DC Gearbox Motor "TT Motor", 200RPM, 3 to 6VDC |
-| Chassis and 4 Wheels | YIKESHU 4WD 2 Layer Smart Robot Car Chassis Kit with Battery Box |
-| Batteries | 1x 9V Battery and 4x 1.5V Batteries |
-
 ## How It Works
 
 ### Wall Following
@@ -50,6 +38,18 @@ The microcontroller reads the digital input from the line sensor at PB7, which s
 |---|---|---|
 | `1` | Black Line Detected | Turn right (avoid the line) |
 | `0` | White Floor Detected | Go straight (target zone) |
+
+## Hardware
+
+| Component | Description |
+|---|---|
+| MCU | STM32F103RB |
+| Analog Distance Sensor | Sharp GP2Y0A51SK0F Analog Distance Sensor - 2cm to 15cm |
+| Digital Line Sensor | QRE1113 Miniature Reflective Object Sensor |
+| 2 Motor Drivers | Dual Driver TB6612FNG v2 |
+| 4 Motors | DC Gearbox Motor "TT Motor", 200RPM, 3 to 6VDC |
+| Chassis and 4 Wheels | YIKESHU 4WD 2 Layer Smart Robot Car Chassis Kit with Battery Box |
+| Batteries | 1x 9V Battery and 4x 1.5V Batteries |
 
 ## I/O Details
 - **Battery Box + 1.5V Batteries** — provides power/voltage to the 2 motor drivers controlling the motors and wheels. 
